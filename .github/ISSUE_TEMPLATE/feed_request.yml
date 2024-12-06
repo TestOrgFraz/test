@@ -1,0 +1,37 @@
+name: New Feed Request
+description: Request a new feed to be added to FTSOv2
+title: "[req]: "
+labels: "enhancement"
+body:
+  - type: input
+    attributes:
+      label: Feed Name
+      description: "The base and quote feed, eg. FLR/USD"
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: Justification
+      description: "A clear and concise explanation of why you are requesting this feed."
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: Trading Venues
+      description: "List out all CeXs, DeXs and aggregators on which this feed is traded."
+    validations:
+      required: true
+
+  - type: input
+    attributes:
+      label: Your Discord or Telegram handle
+    validations:
+      required: true
+
+  - type: input
+    attributes:
+      label: Your Email
+    validations:
+      required: true

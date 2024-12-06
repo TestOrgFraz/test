@@ -1,0 +1,25 @@
+name: Feature Request
+description: Request a feature you would like to see.
+title: "[feat]: "
+labels: "enhancement"
+body:
+  - type: textarea
+    attributes:
+      label: Description
+      description: A clear and concise description of what feature you are requesting.
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: Motivation
+      description: A clear and concise explanation of why you are requesting this feature.
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: Additional Information
+      description: Any additional information that could be useful, like screenshots etc.
+    validations:
+      required: false
